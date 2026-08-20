@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/cfc_cadastro-mcp",
+  "title": "Conselho Federal de Contabilidade: Cadastro de Profissionais e Empresas",
+  "description": "Conselho Federal de Contabilidade: Cadastro de Profissionais e Empresas, official-source lookup. Pla",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/cfc_cadastro-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_cfc_cadastro"
+    }
+  ]
+}
